@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XYIndexView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    XYIndexView *indexView = [[XYIndexView alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 30, 50, 30, self.view.frame.size.height - 100)];
+    [self.view addSubview:indexView];
+    [indexView setIndexViewWithArray:@[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"] seleted:^(NSInteger index) {
+        
+    }];
 }
 
 

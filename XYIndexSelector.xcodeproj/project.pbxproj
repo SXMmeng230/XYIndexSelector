@@ -15,6 +15,7 @@
 		AA3B47C11ECAF368002FFC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3B47BF1ECAF368002FFC86 /* LaunchScreen.storyboard */; };
 		AA3B47CC1ECAF368002FFC86 /* XYIndexSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B47CB1ECAF368002FFC86 /* XYIndexSelectorTests.m */; };
 		AA3B47D71ECAF368002FFC86 /* XYIndexSelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B47D61ECAF368002FFC86 /* XYIndexSelectorUITests.m */; };
+		AA3B47E61ECAF386002FFC86 /* XYIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3B47E51ECAF386002FFC86 /* XYIndexView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AA3B47D21ECAF368002FFC86 /* XYIndexSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYIndexSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3B47D61ECAF368002FFC86 /* XYIndexSelectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYIndexSelectorUITests.m; sourceTree = "<group>"; };
 		AA3B47D81ECAF368002FFC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3B47E41ECAF386002FFC86 /* XYIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYIndexView.h; sourceTree = "<group>"; };
+		AA3B47E51ECAF386002FFC86 /* XYIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYIndexView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				AA3B47B51ECAF368002FFC86 /* AppDelegate.m */,
 				AA3B47B71ECAF368002FFC86 /* ViewController.h */,
 				AA3B47B81ECAF368002FFC86 /* ViewController.m */,
+				AA3B47E41ECAF386002FFC86 /* XYIndexView.h */,
+				AA3B47E51ECAF386002FFC86 /* XYIndexView.m */,
 				AA3B47BA1ECAF368002FFC86 /* Main.storyboard */,
 				AA3B47BD1ECAF368002FFC86 /* Assets.xcassets */,
 				AA3B47BF1ECAF368002FFC86 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA3B47E61ECAF386002FFC86 /* XYIndexView.m in Sources */,
 				AA3B47B91ECAF368002FFC86 /* ViewController.m in Sources */,
 				AA3B47B61ECAF368002FFC86 /* AppDelegate.m in Sources */,
 				AA3B47B31ECAF368002FFC86 /* main.m in Sources */,
